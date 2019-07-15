@@ -34,7 +34,7 @@ public class Demo extends HttpServlet {
 			}
 			System.out.println(ip);
 		System.out.println(resp.getCharacterEncoding());
-		os.write(new String("阿萨德2").getBytes());
+		os.write(new String("阿萨德2").getBytes("Unicode"));
 		os.flush();
 	}
 	
